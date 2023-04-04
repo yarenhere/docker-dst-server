@@ -65,3 +65,8 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/macos,windows,visualstudiocode
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/docker-dst-server.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
