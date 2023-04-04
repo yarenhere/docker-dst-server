@@ -1,0 +1,14 @@
+v1.8.0b
+• Added compatibility with Chef Pouch (from Warly)
+    -- Now Chef Pouch is put in backpack slot instead of body slot
+
+v1.8.0.1
+• Changed version numbers
+
+v1.8.0.2
+• Added compatibility with Candy Bag (from Hallowed Night event)
+    -- Now Candy Bag is put in backpack slot instead of body slot
+
+v1.8.0.3
+• Added compatibility with Seed Pack-It (from Reap What You Sow upcoming update)
+    -- Now Seed Pack-It is put in backpack slot instead of body slot
