@@ -53,20 +53,6 @@ ehthumbs_vista.db
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
 
-# Windows shortcuts
-*.lnk
+/.idea
 
-
-# End of https://www.gitignore.io/api/macos,windows,visualstudiocode
-/.idea/inspectionProfiles/profiles_settings.xml
-/.idea/docker-dst-server.iml
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/vcs.xml
