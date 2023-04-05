@@ -1,0 +1,1 @@
+curl -X PATCH http://127.0.0.1:9090/configs -d '{"mode":"Global"}'
