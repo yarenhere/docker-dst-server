@@ -25,6 +25,7 @@ KLEI     1 return {
       },
       enabled=true 
     },
+    ["workshop-1207269058"]={ configuration_options={  }, enabled=true },
     ["workshop-1392778117"]={
       configuration_options={
         BackCubChance=0.7,
@@ -145,26 +146,6 @@ KLEI     1 return {
       },
       enabled=true 
     },
-    ["workshop-2771698903"]={
-      configuration_options={
-        MOD_RESTART_ALLOW_KILL=true,
-        MOD_RESTART_ALLOW_RESTART=true,
-        MOD_RESTART_ALLOW_RESURRECT=true,
-        MOD_RESTART_CD_BONUS=0,
-        MOD_RESTART_CD_KILL=1,
-        MOD_RESTART_CD_MAX=0,
-        MOD_RESTART_CD_RESTART=2,
-        MOD_RESTART_CD_RESURRECT=1,
-        MOD_RESTART_FORCE_DROP_MODE=0,
-        MOD_RESTART_IGNORING_ADMIN=true,
-        MOD_RESTART_MAP_SAVE=1,
-        MOD_RESTART_RESURRECT_HEALTH=0,
-        MOD_RESTART_TRIGGER_MODE=1,
-        MOD_RESTART_WELCOME_TIPS=true,
-        MOD_RESTART_WELCOME_TIPS_TIME=10 
-      },
-      enabled=true 
-    },
     ["workshop-2798599672"]={
       configuration_options={
         config_render=true,
@@ -190,32 +171,22 @@ KLEI     1 return {
       enabled=true 
     },
     ["workshop-363112314"]={ configuration_options={  }, enabled=true },
-    ["workshop-375859599"]={
+    ["workshop-458940297"]={
       configuration_options={
-        divider=5,
-        random_health_value=0,
-        random_range=0,
-        send_unknwon_prefabs=false,
-        show_type=0,
-        unknwon_prefabs=1,
-        use_blacklist=true 
+        DFV_ClientPrediction="default",
+        DFV_FueledSettings="default",
+        DFV_Language="EN",
+        DFV_MinimalMode="default",
+        DFV_PercentReplace="default",
+        DFV_ShowACondition="default",
+        DFV_ShowADefence="default",
+        DFV_ShowAType="default",
+        DFV_ShowDamage="default",
+        DFV_ShowFireTime="default",
+        DFV_ShowInsulation="default",
+        DFV_ShowTemperature="default",
+        DFV_ShowUses="default" 
       },
-      enabled=true 
-    },
-    ["workshop-378160973"]={
-      configuration_options={
-        ENABLEPINGS=true,
-        FIREOPTIONS=2,
-        OVERRIDEMODE=false,
-        SHAREMINIMAPPROGRESS=true,
-        SHOWFIREICONS=true,
-        SHOWPLAYERICONS=true,
-        SHOWPLAYERSOPTIONS=2 
-      },
-      enabled=true 
-    },
-    ["workshop-661253977"]={
-      configuration_options={ amudiao=true, baodiao=1, kong=0, nillots=0, rendiao=2, zbdiao=true },
       enabled=true 
     } 
   },
@@ -229,11 +200,11 @@ KLEI     1 return {
     online_mode=true,
     password="linyang",
     playstyle="endless",
-    privacy_type=1,
+    privacy_type=0,
     pvp=false,
     server_language="zh" 
   },
-  session_id="3855063E4251B86B",
+  session_id="13F973D0366524B8",
   version=5,
   world={
     options={
@@ -270,7 +241,7 @@ KLEI     1 return {
         berrybush="default",
         birds="default",
         boons="default",
-        branching="default",
+        branching="most",
         brightmarecreatures="default",
         bunnymen_setting="default",
         butterfly="default",
@@ -324,8 +295,8 @@ KLEI     1 return {
         liefs="default",
         lightcrab_portalrate="default",
         lightning="default",
-        lightninggoat="default",
-        loop="default",
+        lightninggoat="always",
+        loop="never",
         lureplants="default",
         malbatross="default",
         marshbush="default",
